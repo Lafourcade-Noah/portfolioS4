@@ -1,3 +1,130 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,900;1,900&family=Rubik+Glitch+Pop&display=swap');
+
+body {
+    background: linear-gradient(to right, rgba(36, 31, 31, 1) 100%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
+    color: #fff;
+    color: #FCF3EA;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.ligne {
+    height: 2px;
+    background-color: #fff;
+}
+
+.title {
+    -webkit-text-stroke: 0.5px #fff;
+    color: transparent;
+}
+
+
+a{
+    -webkit-text-stroke: 0.5px #fff;
+    text-decoration: none;
+    transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
+  }
+  
+  a:hover{
+    color: unset;
+  }
+  
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    position: relative;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul:hover li a{
+    color: rgba(0,0,0,0.1);
+}
+
+ul li:hover a{
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    -webkit-text-stroke-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+
+  }
+
+img{
+    box-shadow: 6px 0px 6px #4F8AEE;
+}
+
+section {
+    display: grid;
+  
+    
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.caca {
+    opacity: 0;
+    filter: blur(50px);
+    transform: translateX(-100%);
+    transition: all 4s;
+    
+}
+
+.animationtop {
+    opacity: 0;
+    filter: blur(50px);
+    transform: translateY(-100%);
+    transition: all 3s;  
+}
+
+.animationright {
+    opacity: 0;
+    filter: blur(50px);
+    transform: translateX(100%);
+    transition: all 5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+    
+}
+
+@media(prefers-reduced-motion) {
+    .caca {
+        transition: none;
+    }
+    .animationtop {
+        transition: none;
+    }
+    .animationright {
+        transition: none;
+    }
+}
+
