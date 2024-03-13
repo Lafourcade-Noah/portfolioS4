@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./src/assets/background.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
 
-    <!-- JQuery Avant Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="./src/assets/background.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
 
-    <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">        
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>            
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <!-- Font-awesome -->            
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- JQuery Avant Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 
-  </head>
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
-    <main role="main" class="main-content" id="main-content">
-      <canvas id="noise" class="noise"></canvas>
-            <div class="vignette"></div>
-            
-    <div id="app"></div>
-    <script type="module" src="./src/main.ts"></script>
-    <script type="module" src="./src/app.ts"></script>
-    <script type="text/javascript">
-      document.addEventListener("mousemove", parallax);
-      function parallax(e) {
-        this.querySelectorAll('.layer').forEach(layer => {
-          const speed = layer.getAttribute('data-speed')
-      
-          const x = (window.innerWidth - e.pageX * speed) / 100
-          const y = (window.innerHeight - e.pageY * speed) / 100
-      
-          layer.style.transform = `translateX(${x}px) translateY(${y}px)`
-        })
+</head>
+<script type="module" src="./src/main.ts"></script>
+<script type="module" src="./src/app.ts"></script>
+<script type="text/javascript">
+  export default {
+    methods: {
+      refreshPage() {
+        location.reload();
       }
-      </script>
-    </main>
-  </body>
+    }
+  }
+
+  document.addEventListener("mousemove", parallax);
+  function parallax(e) {
+    this.querySelectorAll('.layer').forEach(layer => {
+      const speed = layer.getAttribute('data-speed')
+
+      const x = (window.innerWidth - e.pageX * speed) / 100
+      const y = (window.innerHeight - e.pageY * speed) / 100
+
+      layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+    })
+  }
+  
+</script>
+<div class="vignette"></div>
+<canvas id="noise" class="noise"></canvas>
+
+<main role="main" class="main-content overflow-hidden" id="main-content">
+
+
+  <div id="app"></div>
+
+</main>
+</body>
+
 </html>

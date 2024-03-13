@@ -6,10 +6,10 @@ import cardprojets from '../components/cardprojets.vue';
     <main>
         <section>
             <h1 class=" font-black text-5xl lg:text-9xl mt-7">
-                Mes projets
+                MES PROJETS
             </h1>
         </section>
-        <div>
+        <div class=" mt-36">
             <cardprojets />
         </div>
     </main>

@@ -6,6 +6,7 @@ import FooterPage from './components/FooterPage.vue';
 </script>
 
 <template>
+  
   <header>
     <HeaderPage />
   </header>

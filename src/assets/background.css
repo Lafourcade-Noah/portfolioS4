@@ -1,6 +1,5 @@
-
-.vignette {
-    position: absolute;
+ .vignette {
+    position: relative;
     width: 100%;
     height: 100%;
     box-shadow: inset 0px 0px 150px 20px black;
@@ -9,12 +8,12 @@
     /* Safari 4+ */
     -moz-animation: vignette-anim 3s infinite;
     /* Fx 5+ */
-    -o-animation: vignette-anim 3s infinite;
+  -o-animation: vignette-anim 3s infinite; 
     /* Opera 12+ */
-    animation: vignette-anim 3s infinite;
+ animation: vignette-anim 3s infinite; 
     /* IE 10+, Fx 29+ */
-  }
-  
+ }
+   
   .noise {
     z-index: 100;
     position: absolute;
