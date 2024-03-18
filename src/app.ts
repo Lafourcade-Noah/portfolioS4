@@ -1,4 +1,4 @@
-const observer = new IntersectionObserver((entries: IntersectionObserverEntry[]) => {
+  const observer = new IntersectionObserver((entries: IntersectionObserverEntry[]) => {
     entries.forEach((entry: IntersectionObserverEntry) => {
         console.log(entry);
         if (entry.isIntersecting) {

@@ -19,6 +19,8 @@ export default {
             <h1 class="caca font-black text-5xl lg:text-9xl mt-7"> NOAH <br> LAFOURCADE </h1>
             <div>
               <p class="animationtop  font-black text-2xl lg:text-5xl title"> UI / UX BRAND DESIGNER </p>
+              <p class=" text-end animationright  font-black text-2xl lg:text-5xl title"> MOTION DESIGNER </p>
+              <p class=" ml-10 caca font-black text-2xl lg:text-5xl title"> MOTION DESIGNER </p>
             </div>
           </div>
         </section>
@@ -26,13 +28,13 @@ export default {
         <div data-speed="1" class=" layer mt-10 flex flex-col justify-center items-center">
           <section>
             <ul class="animationright">
-              <li onmouseover="changeColorBg('ff6b6b')" onmouseout="changeColorBg('transparent')" class=" animationright italic text-3xl lg:text-7xl title m-2">
-                <RouterLink to="/projets" >PROJECTS</RouterLink>
+              <li onmouseover="changeColorBg('ff6b6b')" onmouseout="changeColorBg('transparent')" class=" animationright italic text-4xl lg:text-7xl title m-2">
+                <a @click="refreshPage" href="/projets">PROJECTS</a>
               </li>
-              <li class="link animationright italic text-3xl lg:text-7xl title m-2">
-                <RouterLink to="/apropos" @click="refreshPage">ABOUT ME</RouterLink>
+              <li class="link animationright italic text-4xl lg:text-7xl title m-2">
+                <a href="/apropos">ABOUT ME</a>
               </li>
-              <li class="animationright italic text-3xl lg:text-7xl title m-2"><RouterLink to="/contact" @click="refreshPage">CONTACT</RouterLink></li>
+              <li class="animationright italic text-4xl lg:text-7xl title m-2"><RouterLink to="/contact" @click="refreshPage">CONTACT</RouterLink></li>
             </ul>
           </section>
 
