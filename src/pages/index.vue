@@ -16,16 +16,16 @@ export default {
 
         <section class=" ml-3">
           <div>
-            <h1 class="caca font-black text-5xl lg:text-9xl mt-7"> NOAH <br> LAFOURCADE </h1>
+            <h1 class="caca font-black text-5xl xl:text-8xl lg:text-6xl mt-7"> NOAH <br> LAFOURCADE </h1>
             <div>
-              <p class="animationtop  font-black text-2xl lg:text-5xl title"> UI / UX BRAND DESIGNER </p>
-              <p class=" text-end animationright  font-black text-2xl lg:text-5xl title"> MOTION DESIGNER </p>
-              <p class=" ml-10 caca font-black text-2xl lg:text-5xl title"> MOTION DESIGNER </p>
+              <p class="animationtop  font-black text-2xl lg:text-5xl title">BRAND DESIGN </p>
+              <p class=" text-end animationright  font-black text-2xl lg:text-5xl title"> MOTION DESIGN</p>
+              <p class=" ml-10 caca font-black text-2xl lg:text-5xl title"> UI / UX DESIGN </p>
             </div>
           </div>
         </section>
 
-        <div data-speed="1" class=" layer mt-10 flex flex-col justify-center items-center">
+        <div data-speed="2" class=" layer mt-10 flex flex-col justify-center items-center">
           <section>
             <ul class="animationright">
               <li onmouseover="changeColorBg('ff6b6b')" onmouseout="changeColorBg('transparent')" class=" animationright italic text-4xl lg:text-7xl title m-2">

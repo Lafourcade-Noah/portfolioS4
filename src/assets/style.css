@@ -7,7 +7,6 @@
 
 body {
     background: linear-gradient(to right, rgba(36, 31, 31, 1) 100%, rgba(36, 31, 31, 1) 32%, rgba(74, 71, 70, 1) 100%);
-    color: #fff;
     color: #FCF3EA;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -84,13 +83,20 @@ section {
     
 }
 
-section img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+h2 {
+    font-family: 'Rubik Glitch Pop', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: #FCF3EA;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Rubik Glitch Pop', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FCF3EA;
+    margin-top: 10px;
 }
 
 
