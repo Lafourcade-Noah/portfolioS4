@@ -9,7 +9,7 @@
       <p class=" opacity-50 ">Branding | Mars 2023</p>
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5">
-      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"
+      <img src="../img/projets/FCT/image_cover.png" alt="Placeholder"
         class=" shadow-inner m-auto w-3/4 max-h-96 object-cover">
     </div>
     <section>
@@ -22,7 +22,7 @@
           <h3>OUTILS UTILISES</h3>
           <div class="display flex h-12 gap-2 pt-2">
             <img src="../img/photoshop_icon.png" alt="photoshop_icon" class="">
-            <img src="../img/illustrator_icon.png" alt="">
+            <img src="../img/after-effects-icon.png" alt="">
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">

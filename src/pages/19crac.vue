@@ -22,7 +22,7 @@
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
           <div class="display flex h-12 gap-2 pt-2">
-            <img src="../img/photoshop_icon.png" alt="photoshop_icon" class="">
+            <img src="../img/indesign_icon.png" alt="photoshop_icon" class="">
             <img src="../img/illustrator_icon.png" alt="">
           </div>
           <h3>LIENS UTILES</h3>

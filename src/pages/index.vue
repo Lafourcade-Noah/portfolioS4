@@ -9,9 +9,9 @@
 
         <section class=" ml-3">
           <div>
-            <h1 class="caca font-black text-5xl xl:text-9xl lg:text-8xl mt-7"> NOAH <br> LAFOURCADE </h1>
+            <h1 class="caca font-black text-5xl xl:text-8xl lg:text-8xl mt-7"> NOAH <br> LAFOURCADE </h1>
             <div>
-              <p class="animationtop  font-black text-2xl lg:text-5xl title">BRAND DESIGN </p>
+              <p class="caca  font-black text-2xl lg:text-5xl title">BRAND DESIGN </p>
               <p class=" text-end animationright  font-black text-2xl lg:text-5xl title"> MOTION DESIGN</p>
               <p class=" ml-10 caca font-black text-2xl lg:text-5xl title"> UI / UX DESIGN </p>
             </div>

@@ -17,7 +17,7 @@ export const projects = [
       tag2: "Photoshop",
       description: "Description du projet 2.",
       imageUrl: "/src/img/projets/FCT/image_cover.png",
-      projetUrl: "lacanopee"
+      projetUrl: "fct"
       // Autres champs comme le lien vers le projet, la date de création, etc.
     },
     {
