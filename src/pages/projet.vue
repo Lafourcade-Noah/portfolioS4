@@ -4,11 +4,12 @@
 
 <template>
   <main class=" ml-10 mr-10">
-    <h1 class="animationtop layer font-black text-5xl lg:text-9xl" data-speed="2">LA CANOPEE</h1>
-    <p>Branding | Mars 2023</p>
-    <div class="">
-      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"
-        class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+    <div class=" mt-10">
+    <h1 class=" layer font-black text-5xl lg:text-9xl opa" data-speed="2">LA CANOPEE</h1>
+    <p class=" opacity-50 ">Branding | Mars 2023</p>
+    </div>
+    <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5">
+      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder" class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
     </div>
     <section>
       <div>
