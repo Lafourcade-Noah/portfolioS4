@@ -1,12 +1,5 @@
 <script>
-export default { 
-  methods: { 
-    refreshPage() { 
-      location.reload(); 
-    } 
-  } 
-} 
-        
+       
 </script>
 
 <template>

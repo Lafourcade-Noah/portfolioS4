@@ -1,7 +1,7 @@
 <template>
     <header class="animationtop ml-3 mr-3 relative">
       <div class="flex justify-between items-center">
-        <RouterLink to="/" class="text-left">Neauha</RouterLink>
+        <a href="/">Neauha</a>
         <button @click="toggleMenu" class="lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -10,7 +10,7 @@
         <div class="hidden lg:flex items-center space-x-4">
           <a href="/projet">Projet</a>
           <a href="/contact">Contact</a>
-          <a href="/a-propos">À propos</a>
+          <a href="/apropos">À propos</a>
         </div>
       </div>
       <div v-if="isMenuOpen" class="lg:hidden relative top-full left-0 right-0 bg-black shadow-lg mt-2 py-2 rounded">

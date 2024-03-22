@@ -1,12 +1,12 @@
 <script setup>
 import cardprojets from '../components/cardprojets.vue';
-import 
+
 </script>
 
 <template>
     <main>
         <section>
-            <h1 class=" caca font-black text-5xl lg:text-9xl mt-7">
+            <h1 class=" font-black text-5xl lg:text-9xl mt-7">
                 MES PROJETS
             </h1>
             

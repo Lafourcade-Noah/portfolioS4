@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    <h1>jdvnsdfvdfijofd</h1>
+    <h1></h1>
 </template>

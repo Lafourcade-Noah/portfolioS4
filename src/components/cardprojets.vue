@@ -34,7 +34,7 @@ export default {
                                 {{ project.description }}
                             </p>
                             <button>
-                                <RouterLink to="/projet">Voir tout le projet</RouterLink>
+                                <a :href="project.projetUrl">Voir tout le projet</a>
                             </button>
                         </div>
                     </div>

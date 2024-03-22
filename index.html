@@ -15,13 +15,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-  <script></script>
-  <!-- Font-awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-
 </head>
+
 <script type="module" src="./src/main.ts"></script>
-<script type="module" src="./src/app.ts"></script>
+<script type="module" src="./src/app.js"></script>
+<script setup lang="ts">
+
+</script>
 <script type="text/javascript">
   export default {
     methods: {
@@ -42,14 +42,14 @@
       layer.style.transform = `translateX(${x}px) translateY(${y}px)`
     })
   }
-  
+
 </script>
-<div class="vignette"></div>
+
 <canvas id="noise" class="noise"></canvas>
 
 <main role="main" class="main-content overflow-hidden" id="main-content">
 
-
+  <div class="vignette"></div>
   <div id="app"></div>
 
 </main>
