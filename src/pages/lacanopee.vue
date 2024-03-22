@@ -18,7 +18,7 @@
         <h2></h2>
       </div>
       <div class="lg:flex ">
-        <div class="sm:w-1/4  grid grid-rows-[50%-50%]">
+        <div class="sm:w-1/4  my-auto">
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
           <div class="display flex h-12 gap-2 pt-2">
