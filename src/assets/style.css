@@ -141,3 +141,47 @@ h3 {
     }
 }
 
+  
+  h1 {
+    animation: move 6s;
+    -webkit-animation: move 5s;
+  
+  }
+  
+  @keyframes move {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+      opacity: 0;
+      filter: blur(50px);
+      transform: translateX(-100%);
+      transition: all 4s;
+        filter: blur(10px); /* Effet de flou */
+    -webkit-filter: blur(10px); /* Effet de flou pour les navigateurs WebKit */
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      filter: blur(0);
+      transform: translateX(0%);
+      
+    }
+  }
+              
+  @-webkit-keyframes move {
+    from {
+      opacity: 0;
+    filter: blur(50px);
+    transform: translateX(-100%);
+    transition: all 4s;
+    }
+  
+    to {
+        margin-left: 0%;
+        width: 100%;
+        filter: blur(0);
+        transform: translateX(0%);
+    }
+  }
+  
