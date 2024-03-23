@@ -5,7 +5,7 @@ import cardprojets from '../components/cardprojets.vue';
 <template>
     <main>
         <section>
-            <h1 class=" animationleft font-black text-5xl lg:text-9xl mt-7">
+            <h1 class=" animleft font-black text-5xl lg:text-9xl mt-7">
                 MES PROJETS
             </h1>
             

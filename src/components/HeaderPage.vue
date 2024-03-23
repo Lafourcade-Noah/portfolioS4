@@ -1,5 +1,5 @@
 <template>
-    <header class="animationtop ml-3 mr-3 relative">
+    <header class="animationtop relative">
       <div class="flex justify-between items-center">
         <a href="/">Neauha</a>
         <button @click="toggleMenu" class="lg:hidden">

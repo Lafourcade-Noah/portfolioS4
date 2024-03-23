@@ -12,7 +12,7 @@ body {
     font-weight: 900;
     height: 100%;
     padding: 0;
-    margin: 0;
+    margin: 1rem;
     overflow-x: hidden;
 }
 
@@ -22,6 +22,7 @@ body {
     border-radius: 100px;
     padding-inline: 3px;
 }
+
 h1 {
     font-family: "Noto Sans JP", sans-serif;
 }
@@ -37,50 +38,46 @@ h1 {
 }
 
 
-a{
+a {
     -webkit-text-stroke: 0.5px #fff;
     text-decoration: none;
     transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
-  }
-  
-  a:hover{
+}
+
+a:hover {
     color: unset;
-  }
-  
+}
+
 
 ul li {
     list-style: none;
 }
 
-ul li a{
+ul li a {
     position: relative;
     text-decoration: none;
     transition: ease-out 0.5s;
 }
 
-ul:hover li a{
-    color: rgba(0,0,0,0.1);
+ul:hover li a {
+    color: rgba(0, 0, 0, 0.1);
 }
 
-ul li:hover a{
+ul li:hover a {
     color: #fff;
-    text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     -webkit-text-stroke-color: transparent;
 }
 
 a:hover {
     text-decoration: none;
 
-  }
-
-img{
-    box-shadow: inset 0px 0px 150px 20px black;
 }
 
 section {
     display: grid;
-  
-    
+
+
 }
 
 h2 {
@@ -105,17 +102,17 @@ h3 {
     filter: blur(50px);
     transform: translateX(-100%);
     transition: all 4s;
-    
+
 }
 
 .animationtop {
     opacity: 0;
     filter: blur(50px);
     transform: translateY(-100%);
-    transition: all 3s;  
+    transition: all 3s;
 }
 
-.animationright {
+.animationrigh {
     opacity: 0;
     filter: blur(50px);
     transform: translateX(100%);
@@ -126,95 +123,108 @@ h3 {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0%);
-    
+
 }
 
 @media(prefers-reduced-motion) {
     .caca {
         transition: none;
     }
+
     .animationtop {
         transition: none;
     }
+
     .animationright {
         transition: none;
     }
 }
 
-  
-.animationleft {
-    animation: movel 6s;
+
+.animleft {
+    animation: movel 5s;
     -webkit-animation: movel 5s;
-  
+
 }
-  
-  @keyframes movel {
+
+.animright {
+    animation: mover 6s;
+    -webkit-animation: mover 5s;
+}
+
+/* apparition gauche */
+
+@keyframes movel {
     from {
-      margin-left: 100%;
-      width: 300%; 
-      opacity: 0;
-      filter: blur(50px);
-      transform: translateX(-100%);
-      transition: all 4s;
-        filter: blur(10px); /* Effet de flou */
-    -webkit-filter: blur(10px); /* Effet de flou pour les navigateurs WebKit */
+        margin-left: 100%;
+        width: 300%;
+        opacity: 0;
+        filter: blur(50px);
+        transform: translateX(-100%);
+        transition: all 4s;
+        filter: blur(10px);
+        /* Effet de flou */
+        -webkit-filter: blur(10px);
+        /* Effet de flou pour les navigateurs WebKit */
     }
-  
+
     to {
-      margin-left: 0%;
-      width: 100%;
-      filter: blur(0);
-      transform: translateX(0%);
-      
+        margin-left: 0%;
+        width: 100%;
+        filter: blur(0);
+        transform: translateX(0%);
+
     }
-  }
-              
-  @-webkit-keyframes movel {
+}
+
+
+@-webkit-keyframes movel {
     from {
-      opacity: 0;
-    filter: blur(50px);
-    transform: translateX(-100%);
-    transition: all 4s;
+        opacity: 0;
+        filter: blur(50px);
     }
-  
+
     to {
         margin-left: 0%;
         width: 100%;
         filter: blur(0);
         transform: translateX(0%);
     }
-  }
-  
+}
 
-  /* Cursor */
-.cursor { /* Curseur personnalisé */
-    position: fixed;
-    mix-blend-mode: difference;
-    z-index: 1000;
-    transition-duration: 150ms;
-    transition-timing-function: ease-out;
-    pointer-events: none;
-  }
-  .cursor.large, /* Curseur agrandi au survol */
-  body:active .cursor { /* Curseur agrandi au clic */
-    transform: scale(1.5);
-  }
-  .cursor circle { /* Cercle du curseur */
-    fill: white;
-  }
-  @media (max-width: 768px) {
-    .footer__class {
-        padding: 2vh;
+/* apparition droite */
+
+@keyframes mover {
+    from {
+        opacity: 0;
+        margin-right: 100%;
+        width: 300%;
+        filter: blur(50px);
+        /* Effet de flou */
     }
-    .project__page {
-        font-size: 1.125rem;
-        font-weight: 500;
+
+    to {
+        opacity: 1;
+        margin-right: 0%;
+        width: 100%;
+        filter: blur(0);
     }
-    .cursor {
-        display: none;
+}
+
+@-webkit-keyframes mover {
+    from {
+        opacity: 0;
+        margin-right: 100%;
+        width: 300%;
+        filter: blur(50px);
+        /* Effet de flou */
     }
-    .mask-project {
-        display: none;
+
+    to {
+        opacity: 1;
+        margin-right: 0%;
+        width: 100%;
+        filter: blur(0);
     }
-  }
-  /* */
+}
+

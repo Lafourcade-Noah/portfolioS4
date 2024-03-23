@@ -14,8 +14,8 @@
         class=" shadow-inner m-auto w-3/4 max-h-96 object-cover">
     </div>
     <section>
-      <div class="lg:flex ">
-        <div class="sm:w-1/4  spacey">
+      <div class="lg:flex animleft">
+        <div class="sm:w-1/4 spacey">
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
           <div class="display flex h-12 gap-2 pt-2">

@@ -4,13 +4,13 @@
 </script>
 
 <template>
-  <main class=" ml-10 mr-10">
-    <div class=" mt-10">
-      <h1 class=" font-black text-5xl lg:text-9xl opa" >LA CANOPEE</h1>
+  <main class=" ">
+    <div class="animleft mt-10">
+      <h1 class=" font-black text-5xl lg:text-9xl opa">LA CANOPEE</h1>
       <p class=" opacity-50 ">Branding | Mars 2023</p>
-      
-        <p class="">Branding</p>
-   
+
+      <p class="">Branding</p>
+
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 ">
       <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"
@@ -21,22 +21,26 @@
         <h2></h2>
       </div>
       <div class="lg:flex ">
-        <div class="sm:w-1/4  my-auto">
+        <div class="sm:w-1/4 my-auto">
           <!-- Contenu de la première colonne -->
-          <h3>OUTILS UTILISES</h3>
-          <div class="display flex h-12 gap-2 pt-2">
-            <img src="../img/photoshop_icon.png" alt="photoshop_icon" class="">
-            <img src="../img/illustrator_icon.png" alt="">
+          <div class="">
+            <h3>OUTILS UTILISES</h3>
+            <div class="display flex h-12 gap-2 pt-2">
+              <img src="../img/photoshop_icon.png" alt="photoshop_icon" class="">
+              <img src="../img/illustrator_icon.png" alt="">
+            </div>
           </div>
-          <h3>LIENS UTILES</h3>
-          <div class="display flex h-12 gap-2 pt-2">
-            <a href="https://www.figma.com/file/KtHLeOxvI68Wf9AO04mELL/UE-2.3-R-R209---Noah-Lafourcade?type=design&node-id=209%3A408&mode=design&t=wuxWHDLuevqyxtYQ-1"
-              class="underline">
-              <p>Liens figma</p>
-            </a>
+          <div class="">
+            <h3>LIENS UTILES</h3>
+            <div class="display flex h-12 gap-2 pt-2">
+              <a href="https://www.figma.com/file/KtHLeOxvI68Wf9AO04mELL/UE-2.3-R-R209---Noah-Lafourcade?type=design&node-id=209%3A408&mode=design&t=wuxWHDLuevqyxtYQ-1"
+                class="underline">
+                <p>Liens figma</p>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="sm:w-3/4 ">
+        <div class="sm:w-3/4">
           <!-- Contenu de la deuxième colonne -->
           <div>
             <h2>PRESENTATION</h2>
@@ -44,7 +48,7 @@
               reservation de chalets dans les montagnes
             </p>
             <p class="mt-10 font-thin">
-             zefzeffzezefzerfzerf
+              zefzeffzezefzerfzerf
             </p>
             <p class="mt-10 font-thin">
               J'ai participé à la conception des diagrammes UML afin de mettre en place une structure cohérente pour la

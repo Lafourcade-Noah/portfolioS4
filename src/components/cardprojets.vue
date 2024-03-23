@@ -11,9 +11,9 @@ export default {
 </script>
 
 <template>
-    <main class="animationleft">
+    <main class="animright">
         <div v-for="project in projects" :key="project.id">
-            <div class="ligne mt-1 mx-4"></div>
+            <div class="ligne mt-1 mx-4 "></div>
             <div class="flex flex-wrap">
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
 
@@ -22,7 +22,7 @@ export default {
                     </div>
                 </div>
 
-                <div class="w-full md:w-1/2 lg:w-2/3 xl:w-3/4 p-4">
+                <div class="w-full md:w-1/2 lg:w-2/3 xl:w-3/4 p-4 ">
                     <div class=" rounded-lg shadow-lg">
                         <div class="p-6">
                             <h2 class="text-5xl font-semibold mb-2">{{ project.title }}</h2>

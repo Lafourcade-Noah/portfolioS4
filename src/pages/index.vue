@@ -10,23 +10,23 @@
 
         <section class=" ml-3">
           <div>
-            <h1 class=" animationleft font-black text-5xl xl:text-8xl lg:text-8xl mt-7"> NOAH <br> LAFOURCADE </h1>
+            <h1 class=" animleft font-black text-5xl xl:text-8xl lg:text-8xl mt-7"> NOAH <br> LAFOURCADE </h1>
             <div>
-              <p class="  font-black text-2xl lg:text-5xl title">BRAND DESIGN </p>
-              <p class=" text-end   font-black text-2xl lg:text-5xl title"> MOTION DESIGN</p>
-              <p class=" ml-10  font-black text-2xl lg:text-5xl title"> UI / UX DESIGN </p>
+              <p class=" animleft font-black text-2xl lg:text-5xl title">BRAND DESIGN </p>
+              <p class=" text-end animright font-black text-2xl lg:text-5xl title"> MOTION DESIGN</p>
+              <p class=" animleft font-black text-2xl lg:text-5xl title"> WEB DESIGN </p>
             </div>
           </div>
         </section>
 
-        <div data-speed="2" class=" layer mt-10 flex flex-col justify-center items-center">
+        <div data-speed="2" class="animright layer mt-10 flex flex-col justify-center items-center">
           <section>
             <ul class="">
               <li class="  italic text-4xl lg:text-7xl title m-2">
-                <RouterLink to="/projets">PROJECTS</RouterLink>
+                <RouterLink to="/projets">PROJETS</RouterLink>
               </li>
               <li class="link  italic text-4xl lg:text-7xl title m-2">
-                <RouterLink to="/apropos">ABOUT ME</RouterLink>
+                <RouterLink to="/apropos">A PROPOS</RouterLink>
               </li>
               <li class=" italic text-4xl lg:text-7xl title m-2">
                 <RouterLink to="/contact">CONTACT</RouterLink>
@@ -37,4 +37,5 @@
       </div>
     </main>
   </div>
+  
 </template>
