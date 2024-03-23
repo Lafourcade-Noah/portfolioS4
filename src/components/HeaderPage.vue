@@ -8,15 +8,15 @@
           </svg>
         </button>
         <div class="hidden lg:flex items-center space-x-4">
-          <a href="/projet">Projet</a>
+          <RouterLink to="/projets" class="hover:text-gray-500">projets</RouterLink>
           <a href="/contact">Contact</a>
           <a href="/apropos">À propos</a>
         </div>
       </div>
       <div v-if="isMenuOpen" class="lg:hidden relative top-full left-0 right-0 bg-black shadow-lg mt-2 py-2 rounded">
-        <RouterLink to="projets" @click="refreshPage"  class="block px-4 py-2 hover:bg-gray-100">Projet</RouterLink>
+        <RouterLink to="projets" class="block px-4 py-2 hover:bg-gray-100">projets</RouterLink>
         <a href="/contact" class="block px-4 py-2 hover:bg-gray-100">Contact</a>
-        <a href="/apropos" class="block px-4 py-2 hover:bg-gray-100">À propos</a>
+        <a href="/src/pages/projets.vue" class="block px-4 py-2 hover:bg-gray-100">À propos</a>
       </div>
       <div class="ligne mt-1"></div>
     </header>

@@ -37,21 +37,24 @@
           <!-- Contenu de la deuxième colonne -->
           <div>
             <h2>PRESENTATION</h2>
-            <p class="mt-10 font-thin "> Pour ce projet en individuel il m'a fallu proposer un logo d'une compagnie de
-              reservation de chalets dans les montagnes
+            <p class="mt-10 font-thin "> Le "Centre Régional d'Art Contemporain" de Montbéliard s'engage à rendre l'art
+              contemporain accessible à tous en proposant un programme diversifié d'expositions, de performances et de
+              résidences d'artistes. Son objectif est de dynamiser la scène culturelle locale et de promouvoir les
+              échanges créatifs au sein de la communauté, enrichissant ainsi le paysage artistique régional.
             </p>
             <p class="mt-10 font-thin">
-             zefzeffzezefzerfzerf
+              L'objectif de cette refonte était de moderniser et de revitaliser l'image du CRAC 19 afin de mieux
+              refléter sa mission et ses valeurs, notamment en mettant en avant la diversité artistique de son
+              programme.
             </p>
             <p class="mt-10 font-thin">
-              J'ai participé à la conception des diagrammes UML afin de mettre en place une structure cohérente pour la
-              nouvelle version du site. En se basant sur ces derniers, j'ai pu réaliser des maquettes mobiles et web
-              interactives, en tenant compte de toutes les données collectées jusqu'à présent.
+              La nouvelle identité visuelle se caractérise par des éléments graphiques distinctifs et polyvalents,
+              comprenant un nouveau logo, une palette de couleurs sobre et une typographie moderne, qui reflètent la
+              diversité artistique et l'éclectisme des offres culturelles du centre.
             </p>
             <p class="mt-10 font-thin">
-              Cette expérience m'a permis de consolider mes compétences en conception et en analyse et en stratégie
-              digitale. Ce projet m'a appris à prendre en compte les attentes des utilisateurs dans mes designs, tout en
-              respectant une identité graphique et des codes déjà définis.</p>
+             Pour ce projet j'ai du faire une nouvelle proposition de logo, ainsi qu'une charte graphique regroupant toutes les nouvelles modification de ces nouvels modifications.
+            </p>
           </div>
         </div>
       </div>

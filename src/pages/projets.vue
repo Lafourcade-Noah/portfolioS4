@@ -1,8 +1,7 @@
-<script setup>
+<script setup >
 import cardprojets from '../components/cardprojets.vue';
 
 </script>
-
 <template>
     <main>
         <section>
@@ -11,7 +10,7 @@ import cardprojets from '../components/cardprojets.vue';
             </h1>
             
         </section>
-        <div class=" mt-36">
+        <div class=" mt-20">
             <cardprojets />
         </div>
     </main>

@@ -1,9 +1,10 @@
-<script setup lang="ts">
+<script setup>
 import { RouterView } from 'vue-router'
 import HeaderPage from './components/HeaderPage.vue';
 import FooterPage from './components/FooterPage.vue';
 
 </script>
+
 
 <template>
   
@@ -11,9 +12,9 @@ import FooterPage from './components/FooterPage.vue';
     <HeaderPage />
   </header>
 
- 
+ <Suspense>
     <RouterView />
-
+</Suspense>
 
   <footer>
     <FooterPage />

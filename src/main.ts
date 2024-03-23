@@ -1,17 +1,16 @@
-import './assets/style.css'
+import './assets/style.css';
+import { createApp } from 'vue';
+import App from './App.vue';
+import routes from '~pages';
+import { createRouter, createWebHistory } from 'vue-router';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import routes from '~pages'
-import { createRouter, createWebHistory } from 'vue-router'
+const app = createApp(App);
 
-const app = createApp(App)
+const router = createRouter({
+    history: createWebHistory(),
+    routes
+});
 
-app.use(
-    createRouter({
-        history: createWebHistory(),
-        routes
-    })
-)
+app.use(router);
 
-app.mount('#app')
+app.mount('#app');

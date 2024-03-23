@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <script>
 
 </script>
@@ -5,7 +6,7 @@
 <template>
   <main class=" ml-10 mr-10">
     <div class=" mt-10">
-      <h1 class=" layer font-black text-5xl lg:text-9xl opa" data-speed="2">LA CANOPEE</h1>
+      <h1 class=" layer font-black text-5xl lg:text-9xl opa" data-speed="2"> FCT ANIMATION</h1>
       <p class=" opacity-50 ">Branding | Mars 2023</p>
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5">
@@ -13,9 +14,6 @@
         class=" shadow-inner m-auto w-3/4 max-h-96 object-cover">
     </div>
     <section>
-      <div>
-        <h2></h2>
-      </div>
       <div class="lg:flex ">
         <div class="sm:w-1/4  spacey">
           <!-- Contenu de la première colonne -->
@@ -26,9 +24,9 @@
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
-            <a href="https://www.figma.com/file/KtHLeOxvI68Wf9AO04mELL/UE-2.3-R-R209---Noah-Lafourcade?type=design&node-id=209%3A408&mode=design&t=wuxWHDLuevqyxtYQ-1"
+            <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
               class="underline">
-              <p>Liens figma</p>
+              <p>Lien Vidéo</p>
             </a>
           </div>
         </div>
@@ -54,8 +52,6 @@
           </div>
         </div>
       </div>
-
-
     </section>
     <section>
       <h2>
@@ -64,12 +60,24 @@
 
       <div class="flex flex-wrap justify-between py-8">
         <div class="w-full md:w-1/2">
-          <img src="../img/projets/canopee/canopee1.png" alt="Placeholder"
+          <img src="../img/projets/FCT/3dvue.webp" alt="Placeholder"
             class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
         </div>
         <popup></popup>
         <div class="w-full md:w-1/2">
-          <img src="../img/projets/canopee/Canopee_Moodboard.png" alt="Placeholder"
+          <img src="../img/projets/FCT/aftereffectfct.webp" alt="Placeholder"
+            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="../img/projets/FCT/imagedebase.webp" alt="Placeholder"
+            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="../img/projets/FCT/basesanspersonage.webp" alt="Placeholder"
+            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="../img/projets/FCT/marionette.webp" alt="Placeholder"
             class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
         </div>
       </div>
