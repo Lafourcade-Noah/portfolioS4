@@ -8,6 +8,9 @@
     <div class=" mt-10">
       <h1 class=" font-black text-5xl lg:text-9xl opa" >LA CANOPEE</h1>
       <p class=" opacity-50 ">Branding | Mars 2023</p>
+      
+        <p class="">Branding</p>
+   
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 ">
       <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"

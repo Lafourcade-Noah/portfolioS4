@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script>
-       
+
 </script>
 
 <template>
@@ -10,7 +10,7 @@
 
         <section class=" ml-3">
           <div>
-            <h1 class=" font-black text-5xl xl:text-8xl lg:text-8xl mt-7"> NOAH <br> LAFOURCADE </h1>
+            <h1 class=" animationleft font-black text-5xl xl:text-8xl lg:text-8xl mt-7"> NOAH <br> LAFOURCADE </h1>
             <div>
               <p class="  font-black text-2xl lg:text-5xl title">BRAND DESIGN </p>
               <p class=" text-end   font-black text-2xl lg:text-5xl title"> MOTION DESIGN</p>
@@ -23,16 +23,18 @@
           <section>
             <ul class="">
               <li class="  italic text-4xl lg:text-7xl title m-2">
-                <a href="/projets">PROJECTS</a>
+                <RouterLink to="/projets">PROJECTS</RouterLink>
               </li>
               <li class="link  italic text-4xl lg:text-7xl title m-2">
-                <a href="/apropos">ABOUT ME</a>
+                <RouterLink to="/apropos">ABOUT ME</RouterLink>
               </li>
-              <li class=" italic text-4xl lg:text-7xl title m-2"><RouterLink to="/contact" @click="refreshPage">CONTACT</RouterLink></li>
+              <li class=" italic text-4xl lg:text-7xl title m-2">
+                <RouterLink to="/contact">CONTACT</RouterLink>
+              </li>
             </ul>
           </section>
         </div>
       </div>
     </main>
-  </div>  
+  </div>
 </template>

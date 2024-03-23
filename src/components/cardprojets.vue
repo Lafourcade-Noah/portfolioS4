@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <main class="">
+    <main class="animationleft">
         <div v-for="project in projects" :key="project.id">
             <div class="ligne mt-1 mx-4"></div>
             <div class="flex flex-wrap">
