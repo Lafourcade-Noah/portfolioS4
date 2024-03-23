@@ -5,16 +5,13 @@
 
 <template>
   <main class=" ">
-    <div class="animleft mt-10">
-      <h1 class=" font-black text-5xl lg:text-9xl opa">LA CANOPEE</h1>
+    <div class=" mt-10">
+      <h1 class="animleft font-black text-5xl lg:text-9xl opa">LA CANOPEE</h1>
       <p class=" opacity-50 ">Branding | Mars 2023</p>
-
-      <p class="">Branding</p>
-
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 ">
       <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"
-        class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+        class=" m-auto w-3/4 max-h-52 object-cover">
     </div>
     <section>
       <div>
@@ -35,14 +32,14 @@
             <div class="display flex h-12 gap-2 pt-2">
               <a href="https://www.figma.com/file/KtHLeOxvI68Wf9AO04mELL/UE-2.3-R-R209---Noah-Lafourcade?type=design&node-id=209%3A408&mode=design&t=wuxWHDLuevqyxtYQ-1"
                 class="underline">
-                <p>Liens figma</p>
+                <p class="absolute">Liens figma</p>
               </a>
             </div>
           </div>
         </div>
         <div class="sm:w-3/4">
           <!-- Contenu de la deuxième colonne -->
-          <div>
+          <div class="">
             <h2>PRESENTATION</h2>
             <p class="mt-10 font-thin "> Pour ce projet en individuel il m'a fallu proposer un logo d'une compagnie de
               reservation de chalets dans les montagnes

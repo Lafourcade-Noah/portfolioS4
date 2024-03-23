@@ -16,6 +16,11 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-size: 1.125rem/* 18px */;
+    line-height: 1.75rem/* 28px */;
+}
+
 .tag {
     background-color: #1c1917;
     padding: 2px;

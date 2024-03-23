@@ -20,4 +20,5 @@ import FooterPage from './components/FooterPage.vue';
   <footer>
     <FooterPage />
   </footer>
+  
 </template>

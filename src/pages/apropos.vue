@@ -42,9 +42,7 @@
           </a>
           
         </div>
-        <a href="../img/CV_noahlafourcade.pdf" download="CV_noahlafourcade.pdf" class="absolute">
-          <span>Télécharger le PDF</span>
-        </a>
+    
         
 
 
