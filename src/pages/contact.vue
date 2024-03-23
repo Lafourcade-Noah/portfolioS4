@@ -7,21 +7,21 @@
     <main class=" mb-10">
         <h1 class="font-black text-5xl xl:text-8xl lg:text-8xl mt-7 animleft">CONTACTEZ MOI</h1>
         <p class="animright mt-10">Un projet en tête ? une question ? un conseil ? n'hésitez pas à me contacter !</p>
-        <div class="flex align-center justify-center gap-20 mt-10">
-            <div>
+        <div class="lg:flex align-center lg:justify-center gap-20 mt-10">
+            <div class="">
                 <h2>Mes réseaux</h2>
-                <div class="flex items-center">
+                <div class="flex items-center gap-2 ">
                     <img src="../img/icon/instagram-icon.svg" alt="" class="h-10">
                     <a href="" class=" text-xl">
                         <p class="">@Neauha</p>
                     </a>
                 </div>
-                <div class="flex items-center">
-                    <img src="" alt="" class="h-10">
-                    <a href="" class=" text-xl">@Neauha</a>
+                <div class="flex items-center gap-2">
+                    <img src="../img/icon/linkedin-icon.svg" alt="" class="h-10">
+                    <a href="" class=" text-xl">Noah Lafourcade</a>
                 </div>
-                <div class="flex items-center">
-                    <img src="../img/behance.webp" alt="" class="h-10">
+                <div class="flex items-center gap-2">
+                    <img src="../img/icon/behance-icon.svg" alt="" class="h-10">
                     <a href="" class=" text-xl"> @Neauha</a>
                 </div>
             </div>
