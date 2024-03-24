@@ -34,11 +34,11 @@ h1 {
 
 .ligne {
     height: 2px;
-    background-color: #fff;
+    background-color: #FCF3EA;
 }
 
 .title {
-    -webkit-text-stroke: 0.5px #fff;
+    -webkit-text-stroke: 0.5px #FCF3EA;
     color: transparent;
 }
 
@@ -220,4 +220,63 @@ h3 {
         width: 100%;
         filter: blur(0);
     }
+}
+
+/* underligne button */
+
+
+.underline-btn{
+  	padding: 0.5em 0;
+  	border-radius: 0;
+    font-weight: bold;
+  	position: relative;
+      font-family: 'Rubik Glitch Pop', sans-serif;
+	&:before,
+	&:after{
+		content: '';
+    	display: block;
+    	position: absolute;
+    	height: 2px;
+    	width: 0;
+
+	}
+	&:before{
+		transition: width 0s ease,background .4s ease;
+		left: 0;
+		right: 0;
+    	bottom: 6px;
+	}
+	&:after{
+		right: 2.2%;
+    	bottom: 6px;
+    	background: #FCF3EA;
+		transition: width .4s ease;
+	}
+	
+	&:hover{
+		&:before{
+			width: 97.8%;
+			background: #FCF3EA;
+    		transition: width .4s ease;
+		}
+		&:after{
+			width: 97.8%;
+    		background: 0 0;
+			transition: all 0s ease;
+		}
+	}
+}
+
+/* fullimg */
+
+.fullimg {
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    
 }

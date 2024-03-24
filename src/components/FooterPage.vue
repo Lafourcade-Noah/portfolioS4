@@ -7,15 +7,15 @@
       <div class="text-center">
         <h2 class="text-lg font-semibold mb-4">Liens utiles</h2>
         <ul class="text-sm">
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">A propos</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><RouterLink to="/" class="underline-btn">Accueil</RouterLink></li>
+          <li><RouterLink to="/apropos" class="underline-btn">A propos</RouterLink></li>
+          <li><RouterLink to="/contact" class="underline-btn">Contact</RouterLink></li>
         </ul>
       </div>
       <!-- Colonne 3 -->
       <div class=" text-center">
         <h2 class="text-lg font-semibold mb-4">Mes réseaux sociaux</h2>
-        <p class="text-sm">
+        <p class="text-sm ">
           LinkedIn <br>
           Behance</p>
       </div>
@@ -27,6 +27,8 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
+
 export default {
   // Ajoutez vos données ou méthodes ici si nécessaire
 }

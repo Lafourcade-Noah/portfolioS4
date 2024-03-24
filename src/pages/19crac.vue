@@ -7,7 +7,7 @@
   <main class=" ml-10 mr-10">
     <div class=" mt-10">
       <h1 class=" animleft font-black text-5xl lg:text-9xl" data-speed="2">REFONTE 19 CRAC</h1>
-      <p class=" opacity-50 ">Branding | Mars 2023</p>
+      <p class=" animleft opacity-50 ">Branding | Mars 2023</p>
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 animleft">
       <img src="../img/projets/crac/crac19mockup.webp" alt="Placeholder"
@@ -17,7 +17,7 @@
       <div>
         <h2></h2>
       </div>
-      <div class="lg:flex ">
+      <div class="lg:flex animleft">
         <div class="sm:w-1/4 ">
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>

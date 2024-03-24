@@ -1,20 +1,27 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script>
+<script setup>
+import {ref} from 'vue';
+
+function toggleGal() {
+    activeGal.value = !activeGal.value;
+}
+
+const activeGal = ref(false)
 
 </script>
 
 <template>
   <main class=" ml-10 mr-10">
-    <div class=" mt-10">
-      <h1 class=" font-black text-5xl lg:text-9xl animleft" data-speed="2"> LOFI BAR</h1>
-      <p class=" opacity-50 ">Motion Design | Novembre 2024 </p>
+    <div class=" mt-10 animleft">
+      <h1 class=" font-black text-5xl lg:text-9xl "> LOFI BAR</h1>
+      <p class=" opacity-50 ">Motion Design | Novembre 2023 </p>
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 animleft ">
       <img src="../img/projets/FCT/image_cover.png" alt="Placeholder"
         class=" shadow-inner m-auto w-3/4 max-h-96 object-cover">
     </div>
     <section>
-      <div class="lg:flex ">
+      <div class="lg:flex animleft">
         <div class="sm:w-1/4 ">
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
@@ -25,12 +32,12 @@
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
             <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
-              class="underline absolute">
+              class="underline-btn absolute">
               <p>Lien Vidéo</p>
             </a>
           </div>
         </div>
-        <div class="sm:w-3/4 animright ">
+        <div class="sm:w-4/5 animright ">
           <!-- Contenu de la deuxième colonne -->
           <div>
             <h2>PRESENTATION</h2>
@@ -72,31 +79,42 @@
       </h2>
 
       <div class="flex flex-wrap justify-between py-8">
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
+        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
           <img src="../img/projets/FCT/3dvue.webp" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
         </div>
-        <popup></popup>
-        <div class="w-full md:w-1/2">
+      </div>
+        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
+        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
           <img src="../img/projets/FCT/aftereffectfct.webp" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
         </div>
-        <div class="w-full md:w-1/2">
+      </div>
+        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
+        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
           <img src="../img/projets/FCT/imagedebase.webp" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
         </div>
-        <div class="w-full md:w-1/2">
+      </div>
+        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
+        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
           <img src="../img/projets/FCT/basesanspersonage.webp" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
         </div>
-        <div class="w-full md:w-1/2">
+      </div>
+        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
+        <div :class="{'fullimg ' :activeGal}" class=" translate-x-0 transition-all duration-300">
           <img src="../img/projets/FCT/marionette.webp" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
         </div>
-        <div class="w-full md:w-1/2">
+      </div>
+        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
+        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
           <img src="../img/projets/FCT/storyboard.webp" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+            class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
         </div>
+      </div>
       </div>
 
     </section>
