@@ -3,7 +3,7 @@ export const projects = [
       id: 1,
       title: "LA CANOPEE",
       tag1: "Branding",
-      tag2: "vas te faire enculé",
+      tag2: "",
       description: "Logo réalisé pour une société de location de chalets fictive...",
       imageUrl: "/src/img/Lacanopee_PROJETS.jpg",
       projetUrl: "lacanopee",

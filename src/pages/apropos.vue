@@ -10,13 +10,17 @@
         A PROPOS DE MOI
       </h1>
 
-      <div class="mt-3">
+      <div class="mt-5 mb-3 animleft">
         Je m'appelle Noah Lafourcade, j'ai 19 ans et je suis étudiant en Bachelor Universitaire de Technologie
         (B.U.T) dans les Métiers du Multimédia et d'Internet (M.M.I). Passionné par les nouvelles Technologies je
         souhaite me spécialiser dans la création numérique. Je suis quelqu’un de curieux et
         passionné qui aime travailler en équipe.
       </div>
-      <div class="items-center display flex">
+      <div class="mt-5 mb-3 animright">
+        Je suis actuellement a la recherche d'une alternance pour le début d'année scolaire 2024 pour un contrat de un an dans le domaine du graphisme ou du montage vidéo.
+      </div>
+
+      <div class="items-center display flex animright">
         <div class=" gap-2 pt-2 m-auto text-center">
           <h3 class="mb-4">COMPÉTENCES</h3>
           <div class="flex gap-2 h-12 mb-4">

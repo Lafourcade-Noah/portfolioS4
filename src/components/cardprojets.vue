@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <main class="animright mx-5">
+    <main class=" mx-3">
         <div v-for="project in projects" :key="project.id">
             <div class="ligne mt-1"></div>
             <div class="flex flex-wrap">
@@ -28,7 +28,7 @@ export default {
                             <h2 class="text-5xl font-semibold mb-2">{{ project.title }}</h2>
                             <div class=" flex flex-wrap space-x-3">
                                 <div class="tag">{{ project.tag1 }}</div>
-                                <div class="tag">{{ project.tag2 }}</div>
+                                <div class="tag" v-show="project.tag2">{{ project.tag2 }}</div>
                             </div>
                             <p class=" font-extralight">
                                 {{ project.description }}

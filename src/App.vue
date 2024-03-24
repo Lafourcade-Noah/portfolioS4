@@ -13,6 +13,7 @@ import FooterPage from './components/FooterPage.vue';
     <HeaderPage />
   </header>
 
+
  <Suspense>
     <RouterView />
 </Suspense>
