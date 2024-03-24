@@ -6,10 +6,10 @@
 <template>
   <main class=" ml-10 mr-10">
     <div class=" mt-10">
-      <h1 class=" layer font-black text-5xl lg:text-9xl opa" data-speed="2">REFONTE 19 CRAC</h1>
+      <h1 class=" animleft font-black text-5xl lg:text-9xl" data-speed="2">REFONTE 19 CRAC</h1>
       <p class=" opacity-50 ">Branding | Mars 2023</p>
     </div>
-    <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5">
+    <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 animleft">
       <img src="../img/projets/crac/crac19mockup.webp" alt="Placeholder"
         class=" shadow-inner m-auto w-3/4 max-h-96 object-cover">
     </div>
@@ -18,18 +18,18 @@
         <h2></h2>
       </div>
       <div class="lg:flex ">
-        <div class="sm:w-1/4  spacey">
+        <div class="sm:w-1/4 ">
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
-          <div class="display flex h-12 gap-2 pt-2">
-            <img src="../img/indesign_icon.png" alt="photoshop_icon" class="">
-            <img src="../img/illustrator_icon.png" alt="">
+          <div class="display flex h-12 gap-2 pt-2 lg:mb-10">
+            <img src="../img/photoshop_icon.png" alt="photoshop_icon" class="">
+            <img src="../img/after-effects-icon.png" alt="">
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
-            <a href="https://www.figma.com/file/KtHLeOxvI68Wf9AO04mELL/UE-2.3-R-R209---Noah-Lafourcade?type=design&node-id=209%3A408&mode=design&t=wuxWHDLuevqyxtYQ-1"
-              class="underline">
-              <p>Liens figma</p>
+            <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
+              class="underline absolute">
+              <p>Lien Vidéo</p>
             </a>
           </div>
         </div>

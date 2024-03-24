@@ -5,15 +5,11 @@
   <meta charset="UTF-8" />
   <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="./src/assets/background.css">
-  <link rel="stylesheet" href="./src/assets/cursor.scss">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio Noah Lafourcade</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Noah Lafourcade</title>
   <meta name="author" content="Noah Lafourcade">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Portfolio Noah Lafourcade">
-  <meta>
+  <meta name="description" content="Voici mon porfolio avec quelques une de mes créations !">
 
   <!-- JQuery Avant Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -23,25 +19,27 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 </head>
-<div class="bg"> </div>
 
-<script type="module" src="./src/main.ts"></script>
-<script type="module" src="./src/app.js"></script>
+<div class="bg pointer-events-none"> </div>
 <script type="text/javascript">
   document.addEventListener("mousemove", parallax);
   function parallax(e) {
     this.querySelectorAll('.layer').forEach(layer => {
       const speed = layer.getAttribute('data-speed')
-  
+
       const x = (window.innerWidth - e.pageX * speed) / 100
       const y = (window.innerHeight - e.pageY * speed) / 100
-  
+
       layer.style.transform = `translateX(${x}px) translateY(${y}px)`
     })
   }
 </script>
+
+<script type="module" src="./src/main.ts"></script>
+<script type="module" src="./src/app.js"></script>
+
 <main role="main" class="main-content overflow-hidden" id="main-content">
-  <div class="vignette"></div>
+  <div class="vignette pointer-events-none" ></div>
   <div id="app"></div>
 
 </main>

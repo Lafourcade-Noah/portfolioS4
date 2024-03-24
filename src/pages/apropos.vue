@@ -1,12 +1,13 @@
+// eslint-disable-next-line vue/multi-word-component-names
 <script>
 
 </script>
 
 <template>
   <div class="">
-    <div class="container mx-auto px-4 py-8">
-      <h1 class=" font-black text-5xl lg:text-6xl mt-3">
-        NOAH <br> LAFOURCADE
+    <div class="container mx-auto px-4 py-8 ">
+      <h1 class="animleft font-black text-5xl lg:text-6xl mt-3">
+        A PROPOS DE MOI
       </h1>
 
       <div class="mt-3">

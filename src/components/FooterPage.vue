@@ -1,5 +1,5 @@
 <template>
-  <div class="ligne"></div>
+  <div class="ligne mx-3"></div>
   <footer class="p-8">
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
 

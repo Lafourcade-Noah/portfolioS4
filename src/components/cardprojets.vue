@@ -11,9 +11,9 @@ export default {
 </script>
 
 <template>
-    <main class="animright">
+    <main class="animright mx-5">
         <div v-for="project in projects" :key="project.id">
-            <div class="ligne mt-1 mx-4 "></div>
+            <div class="ligne mt-1"></div>
             <div class="flex flex-wrap">
                 <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
 

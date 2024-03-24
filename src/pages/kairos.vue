@@ -6,7 +6,7 @@
 <template>
     <main class=" ml-10 mr-10">
         <div class=" mt-10">
-            <h1 class=" layer font-black text-5xl lg:text-9xl opa" data-speed="2">KAIROS</h1>
+            <h1 class=" animleft font-black text-5xl lg:text-9xl" data-speed="2">KAIROS</h1>
             <p class=" opacity-50 "> UI / UX Design | Novembre 2023</p>
         </div>
         <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5">

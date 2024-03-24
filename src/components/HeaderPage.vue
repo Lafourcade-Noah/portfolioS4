@@ -1,6 +1,6 @@
 <template>
   
-    <header class="animationtop relative m-3">
+    <header class=" relative m-3">
       <div class="flex justify-between items-center">
         <RouterLink to="/">Neauha</RouterLink>
         <button @click="toggleMenu" class="lg:hidden">

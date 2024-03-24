@@ -6,12 +6,11 @@
 <template>
   <main class=" ">
     <div class=" mt-10">
-      <h1 class="animleft font-black text-5xl lg:text-9xl opa">LA CANOPEE</h1>
+      <h1 class="animleft font-black text-5xl lg:text-9xl">LA CANOPEE</h1>
       <p class=" opacity-50 ">Branding | Mars 2023</p>
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 ">
-      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"
-        class=" m-auto w-3/4 max-h-52 object-cover">
+      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder" class=" m-auto w-3/4 max-h-52 object-cover">
     </div>
     <section>
       <div>

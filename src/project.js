@@ -11,12 +11,12 @@ export const projects = [
     },
     {
       id: 2,
-      title: "ANIMATION ",
+      title: "LOFI BAR",
       tag1: "Motion design",
       tag2: "Animation",
       description: "Animation réalisé avec une musique et des images réalisé avec l'IA...",
       imageUrl: "/src/img/projets/FCT/image_cover.png",
-      projetUrl: "fct"
+      projetUrl: "lofibar"
       // Autres champs comme le lien vers le projet, la date de création, etc.
     },
     {
