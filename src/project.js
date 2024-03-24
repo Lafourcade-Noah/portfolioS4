@@ -5,7 +5,7 @@ export const projects = [
       tag1: "Branding",
       tag2: "",
       description: "Logo réalisé pour une société de location de chalets fictive...",
-      imageUrl: "https://noahlafourcade.fr/src/img/projets/FCT/image_cover.png",
+      imageUrl: "public/img/canopee1.png",
       projetUrl: "lacanopee",
       // Autres champs comme le lien vers le projet, la date de création, etc.
     },
