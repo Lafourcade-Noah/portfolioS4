@@ -21,14 +21,14 @@
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
           <div class="display flex h-12 gap-2 pt-2 lg:mb-10">
-            <img src="../img/photoshop_icon.png" alt="photoshop_icon" class="">
-            <img src="../img/after-effects-icon.png" alt="">
+            <img src="../img/icon/figma-icon.svg" alt="figma_icon" class="">
+            <img src="../img/illustrator_icon.png" alt="">
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
             <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
               class="underline-btn absolute">
-              <p>Lien Vidéo</p>
+              <p>Lien Présentation</p>
             </a>
           </div>
         </div>

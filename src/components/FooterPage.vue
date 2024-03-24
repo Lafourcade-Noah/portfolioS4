@@ -5,19 +5,21 @@
 
       <!-- Colonne 2 -->
       <div class="text-center">
-        <h2 class="text-lg font-semibold mb-4">Liens utiles</h2>
+        <h2 class="text-lg font-black mb-4">LIENS UTILES</h2>
         <ul class="text-sm">
-          <li><RouterLink to="/" class="underline-btn">Accueil</RouterLink></li>
+          <li><RouterLink to="/" class=" font-normal underline-btn">Accueil</RouterLink></li>
           <li><RouterLink to="/apropos" class="underline-btn">A propos</RouterLink></li>
           <li><RouterLink to="/contact" class="underline-btn">Contact</RouterLink></li>
         </ul>
       </div>
       <!-- Colonne 3 -->
       <div class=" text-center">
-        <h2 class="text-lg font-semibold mb-4">Mes réseaux sociaux</h2>
-        <p class="text-sm ">
-          LinkedIn <br>
-          Behance</p>
+        <h2 class="text-lg font-semibold mb-4">MES RESEAUX SOCIAUX</h2>
+        <ul class="text-sm">
+          <li><RouterLink to="/apropos" class="underline-btn">LinkedIn</RouterLink></li>
+          <li><RouterLink to="/contact" class="underline-btn">Behance</RouterLink></li>
+          <li><RouterLink to="/contact" class="underline-btn">Instagram</RouterLink></li> 
+        </ul>
       </div>
     </div>
     <div class="mt-8 text-center">
@@ -33,7 +35,3 @@ export default {
   // Ajoutez vos données ou méthodes ici si nécessaire
 }
 </script>
-
-<style scoped>
-/* Ajoutez vos styles Tailwind CSS personnalisés ici si nécessaire */
-</style>
