@@ -11,8 +11,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     height: 100%;
-    padding: 0;
-    margin: 1rem;
     overflow-x: hidden;
 }
 
@@ -22,10 +20,12 @@ p {
 }
 
 .tag {
-    background-color: #1c1917;
+    background-color: #FCF3EA;
     padding: 2px;
+    margin-bottom: 3px;
     border-radius: 100px;
-    padding-inline: 3px;
+    padding-inline: 15px;
+    color: #1c1917;
 }
 
 h1 {
@@ -131,20 +131,6 @@ h3 {
 
 }
 
-@media(prefers-reduced-motion) {
-    .caca {
-        transition: none;
-    }
-
-    .animationtop {
-        transition: none;
-    }
-
-    .animationright {
-        transition: none;
-    }
-}
-
 
 .animleft {
     animation: movel 5s;
@@ -161,7 +147,7 @@ h3 {
 
 @keyframes movel {
     from {
-        margin-left: 100%;
+        padding-left: 100%;
         width: 300%;
         opacity: 0;
         filter: blur(50px);
@@ -174,7 +160,7 @@ h3 {
     }
 
     to {
-        margin-left: 0%;
+        padding-left: 0%;
         width: 100%;
         filter: blur(0);
         transform: translateX(0%);
@@ -190,7 +176,7 @@ h3 {
     }
 
     to {
-        margin-left: 0%;
+        padding-left: 0%;
         width: 100%;
         filter: blur(0);
         transform: translateX(0%);
@@ -202,7 +188,7 @@ h3 {
 @keyframes mover {
     from {
         opacity: 0;
-        margin-right: 100%;
+        padding-right: 100%;
         width: 300%;
         filter: blur(50px);
         /* Effet de flou */
@@ -210,7 +196,7 @@ h3 {
 
     to {
         opacity: 1;
-        margin-right: 0%;
+        padding-right: 0%;
         width: 100%;
         filter: blur(0);
     }
@@ -219,7 +205,7 @@ h3 {
 @-webkit-keyframes mover {
     from {
         opacity: 0;
-        margin-right: 100%;
+        padding-right: 100%;
         width: 300%;
         filter: blur(50px);
         /* Effet de flou */
@@ -227,9 +213,10 @@ h3 {
 
     to {
         opacity: 1;
-        margin-right: 0%;
+        padding-right: 0%;
         width: 100%;
         filter: blur(0);
     }
 }
 
+/* dezfzef */

@@ -7,12 +7,12 @@
   <link rel="stylesheet" href="./src/assets/background.css">
   <link rel="stylesheet" href="./src/assets/cursor.scss">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
+  <title>Portfolio Noah Lafourcade</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Noah Lafourcade">
-  <meta name="theme-color" content="#000449">
-  <meta name="description" content="Venez découvrir mes différents travaux grâce à mon portfolio">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Portfolio Noah Lafourcade">
   <meta>
 
   <!-- JQuery Avant Bootstrap -->
@@ -27,10 +27,20 @@
 
 <script type="module" src="./src/main.ts"></script>
 <script type="module" src="./src/app.js"></script>
-
-
+<script type="text/javascript">
+  document.addEventListener("mousemove", parallax);
+  function parallax(e) {
+    this.querySelectorAll('.layer').forEach(layer => {
+      const speed = layer.getAttribute('data-speed')
+  
+      const x = (window.innerWidth - e.pageX * speed) / 100
+      const y = (window.innerHeight - e.pageY * speed) / 100
+  
+      layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+    })
+  }
+</script>
 <main role="main" class="main-content overflow-hidden" id="main-content">
-
   <div class="vignette"></div>
   <div id="app"></div>
 

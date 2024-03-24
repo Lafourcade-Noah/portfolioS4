@@ -8,7 +8,7 @@ import FooterPage from './components/FooterPage.vue';
 
 
 <template>
-  
+
   <header>
     <HeaderPage />
   </header>

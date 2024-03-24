@@ -5,6 +5,7 @@
 
 <template>
     <main class="mb-10">
+        <section class="container mx-auto px-4 py-8">
         <h1 class="font-black text-5xl xl:text-8xl lg:text-8xl mt-7 anim-left">CONTACTEZ-MOI</h1>
         <p class="anim-right mt-10">Un projet en tête ? Une question ? Un conseil ? N'hésitez pas à me contacter !</p>
         <div class="lg:flex justify-center lg:gap-20 mt-10 item-center">
@@ -36,5 +37,6 @@
                 </div>
             </div>
         </div>
+    </section>
     </main>
 </template>
