@@ -30,7 +30,7 @@
             </a>
           </div>
         </div>
-        <div class="sm:w-3/4 ">
+        <div class="sm:w-3/4 animright ">
           <!-- Contenu de la deuxième colonne -->
           <div>
             <h2>PRESENTATION</h2>

@@ -142,6 +142,7 @@ h3 {
 .animright {
     animation: mover 6s;
     -webkit-animation: mover 5s;
+    
 }
 
 /* apparition gauche */
@@ -193,6 +194,7 @@ h3 {
         width: 300%;
         filter: blur(50px);
         /* Effet de flou */
+
     }
 
     to {
