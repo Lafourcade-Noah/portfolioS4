@@ -1,5 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script>
+import { RouterLink } from 'vue-router';
+
 
 </script>
 
@@ -58,22 +60,25 @@
 
     </section>
     <section>
-      <h2>
-        GALLERIE
+      <h2 class="text-center mt-10 mb-10">
+        GALERIE
       </h2>
 
       <div class="flex flex-wrap justify-between py-8">
         <div class="w-full md:w-1/2">
-          <img src="../img/projets/canopee/canopee1.png" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          <img src="../img/projets/canopee/canopee1.png" alt="Placeholder" class=" shadow-inner m-auto w-3/4">
         </div>
-        <popup></popup>
         <div class="w-full md:w-1/2">
-          <img src="../img/projets/canopee/Canopee_Moodboard.png" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          <img src="../img/projets/canopee/CANOPEMOCKUP.webp" alt="Placeholder" class="  shadow-inner m-auto w-3/4">
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="../img/projets/canopee/mockup-cap.webp" alt="Placeholder" class=" shadow-inner m-auto w-3/4">
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="../img/projets/canopee/mockup-poster.webp" alt="Placeholder" class=" shadow-inner m-auto w-3/4">
         </div>
       </div>
-
     </section>
-  </main>
+ <RouterLink to="/lofibar">PROJET SUIVANT</RouterLink>
+</main>
 </template>

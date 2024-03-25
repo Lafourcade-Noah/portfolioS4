@@ -61,8 +61,8 @@
 
         </section>
         <section>
-            <h2>
-                GALLERIE
+            <h2 class="text-center mt-10">
+                GALERIE
             </h2>
 
             <div class="flex flex-wrap justify-between">
@@ -84,7 +84,6 @@
                         class=" shadow-inner m-auto w-5/6 max-h-52 object-cover">
                 </div>
             </div>
-
         </section>
     </main>
 </template>
