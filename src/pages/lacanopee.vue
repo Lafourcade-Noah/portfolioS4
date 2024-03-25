@@ -1,7 +1,13 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script>
 import { RouterLink } from 'vue-router';
-
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    }
+  }
+}
 
 </script>
 
@@ -11,8 +17,9 @@ import { RouterLink } from 'vue-router';
       <h1 class="animleft font-black text-5xl lg:text-9xl">LA CANOPEE</h1>
       <p class=" opacity-50 animleft ">Branding | Mars 2023</p>
     </div>
-    <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 animleft ">
-      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder" class=" m-auto w-3/4 max-h-52 object-cover a">
+    <div class=" animleft lg:mb-10 lg:mt-10 mb-5 mt-5 ">
+      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"
+        class=" shadow-inner m-auto w-3/4 max-h-96 object-cover ">
     </div>
     <section>
       <div>
@@ -49,7 +56,7 @@ import { RouterLink } from 'vue-router';
               nouvelle version du site. En se basant sur ces derniers, j'ai pu réaliser des maquettes mobiles et web
               interactives, en tenant compte de toutes les données collectées jusqu'à présent.
             </p>
-            <p class="mt-10 font-thin">
+            <p class="mt-10 font-thin ">
               Cette expérience m'a permis de consolider mes compétences en conception et en analyse et en stratégie
               digitale. Ce projet m'a appris à prendre en compte les attentes des utilisateurs dans mes designs, tout en
               respectant une identité graphique et des codes déjà définis.</p>
@@ -74,11 +81,25 @@ import { RouterLink } from 'vue-router';
         <div class="w-full md:w-1/2">
           <img src="../img/projets/canopee/mockup-cap.webp" alt="Placeholder" class=" shadow-inner m-auto w-3/4">
         </div>
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 ">
           <img src="../img/projets/canopee/mockup-poster.webp" alt="Placeholder" class=" shadow-inner m-auto w-3/4">
         </div>
       </div>
     </section>
- <RouterLink to="/lofibar">PROJET SUIVANT</RouterLink>
-</main>
+    <div class="flex  m-24">
+      <RouterLink to="/lofibar" @click.native="scrollToTop()"
+        class="relative m-auto inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium border-2 border-white hover:text-white group hover:white">
+        <span
+          class="absolute left-0 block w-full h-0 transition-all group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        <span
+          class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+            </path>
+          </svg>
+        </span>
+        <span class="relative "> Projet suivant </span>
+      </RouterLink>
+    </div>
+  </main>
 </template>

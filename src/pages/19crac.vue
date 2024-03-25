@@ -1,6 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script>
-
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    }
+  }
+}
 </script>
 
 <template>
@@ -22,14 +28,14 @@
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
           <div class="display flex h-12 gap-2 pt-2 lg:mb-10">
-            <img src="../img/photoshop_icon.png" alt="photoshop_icon" class="">
-            <img src="../img/after-effects-icon.png" alt="">
+            <img src="../img/icon/indesign-icon.svg" alt="photoshop_icon" class="">
+            <img src="../img/illustrator_icon.png" alt="">
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
             <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
-              class="underline absolute">
-              <p>Lien Vidéo</p>
+              class="underline-btn">
+              <p>Lien Charte graphique</p>
             </a>
           </div>
         </div>
@@ -62,22 +68,45 @@
 
     </section>
     <section>
-      <h2>
+      <h2 class="text-center mt-10 mb-10">
         GALLERIE
       </h2>
 
       <div class="flex flex-wrap justify-between py-8">
         <div class="w-full md:w-1/2">
-          <img src="../img/projets/canopee/canopee1.png" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          <img src="../img/projets/crac/crac19mockup.webp" alt="Placeholder"
+            class=" shadow-inner m-auto w-full">
         </div>
-        <popup></popup>
+
         <div class="w-full md:w-1/2">
-          <img src="../img/projets/canopee/Canopee_Moodboard.png" alt="Placeholder"
-            class=" shadow-inner m-auto w-3/4 max-h-52 object-cover">
+          <img src="../img/projets/crac/chartegraphique.webp" alt="Placeholder"
+            class=" shadow-inner m-auto w-full ">
         </div>
+
+        <div class="w-full md:w-1/2">
+          <img src="../img/projets/crac/bonnet.webp" alt="Placeholder"
+            class=" shadow-inner m-auto w-full object-cover">
+        </div>
+
+  
+      
       </div>
 
     </section>
+    <div class="flex m-24">
+      <RouterLink to="/lacanopee" @click.native="scrollToTop()"
+        class="relative m-auto inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium border-2 border-white hover:text-white group hover:white">
+        <span
+          class="absolute left-0 block w-full h-0 transition-all group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        <span
+          class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+            </path>
+          </svg>
+        </span>
+        <span class="relative "> Projet suivant </span>
+      </RouterLink>
+    </div>
   </main>
 </template>

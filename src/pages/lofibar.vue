@@ -1,13 +1,14 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup>
-import {ref} from 'vue';
+<script>
+import { ref } from 'vue';
 
-function toggleGal() {
-    activeGal.value = !activeGal.value;
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    }
+  }
 }
-
-const activeGal = ref(false)
-
 </script>
 
 <template>
@@ -31,9 +32,9 @@ const activeGal = ref(false)
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
-            <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
+            <a href="https://drive.google.com/drive/folders/1pCdj6dbG2-oUpQTVUkso7i9z5FVFW9Lf?usp=drive_link"
               class="underline-btn absolute">
-              <p>Lien Vidéo</p>
+              <p>Lien Source Projet</p>
             </a>
           </div>
         </div>
@@ -59,9 +60,8 @@ const activeGal = ref(false)
               Dans la phase suivante, j'ai procédé à la conception des éléments graphiques en partant d'une image de
               base représentant des personnages dans un bar. À l'aide de Photoshop, j'ai créé des calques pour définir
               les différents plans de mon animation et j'ai remplacé le fond en utilisant L'IA
-              de l'outil. Ensuite, j'ai entamé l'animation de chaque calque, les disposant stratégiquement les uns
-              au-dessus des autres pour créer un effet de perspective 3D saisissant à l'aide d'After Effects.
-              en utilisant des logiciels comme After Effects et Premiere.
+              de l'outil. Ensuite, j'ai entamé l'animation de chaque calque, les disposant les uns
+              au-dessus des autres pour créer un effet de perspective 3D à l'aide d'After Effects.
             </p>
 
           </div>
@@ -72,51 +72,58 @@ const activeGal = ref(false)
       <source src="../img/311_LAFOURCADE_NOAH_MOTION.mp4" type="video/mp4">
     </video>
 
-    
+
     <section>
-      <h2>
+      <h2 class="text-center mt-10 mb-10">
         GALERIE
       </h2>
 
-      <div class="flex flex-wrap justify-between py-8">
-        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
-        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
+      <div class="flex flex-wrap justify-between">
+        <div class="w-full md:w-1/2">
+
           <img src="../img/projets/FCT/3dvue.webp" alt="Placeholder"
-          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
+            class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
+
         </div>
-      </div>
-        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
-        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
-          <img src="../img/projets/FCT/aftereffectfct.webp" alt="Placeholder"
-          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
-        </div>
-      </div>
-        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
-        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
+
+        <div class="w-full md:w-1/2 ">
           <img src="../img/projets/FCT/imagedebase.webp" alt="Placeholder"
-          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
+            class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
         </div>
-      </div>
-        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
-        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
+
+        <div class="w-full md:w-1/2">
           <img src="../img/projets/FCT/basesanspersonage.webp" alt="Placeholder"
-          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
+            class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
         </div>
-      </div>
-        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
-        <div :class="{'fullimg ' :activeGal}" class=" translate-x-0 transition-all duration-300">
+
+        <div class="w-full md:w-1/2 ">
           <img src="../img/projets/FCT/marionette.webp" alt="Placeholder"
-          class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
+            class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
         </div>
-      </div>
-        <div class="w-full md:w-1/2 cursor-pointer "  @click="toggleGal">
-        <div :class="{'fullimg ' :activeGal}" class="translate-x-0 transition-all duration-300">
+
+        <div class="w-full md:w-1/2">
           <img src="../img/projets/FCT/storyboard.webp" alt="Placeholder"
-            class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover" :class="{'absolute top-0 left-0 right-0 bottom-0 max-h-[50%] max-w-[30%] object-fill' :activeGal}">
+            class="shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
         </div>
-      </div>
       </div>
 
+
+
     </section>
+    <div class="flex m-24">
+      <RouterLink to="/kairos" @click.native="scrollToTop()"
+        class="relative m-auto inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium border-2 border-white hover:text-white group hover:white">
+        <span
+          class="absolute left-0 block w-full h-0 transition-all group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+        <span
+          class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+            </path>
+          </svg>
+        </span>
+        <span class="relative "> Projet suivant </span>
+      </RouterLink>
+    </div>
   </main>
 </template>
