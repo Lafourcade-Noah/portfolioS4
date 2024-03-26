@@ -10,18 +10,7 @@
   <meta name="author" content="Noah Lafourcade">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="Voici mon porfolio avec quelques une de mes créations !">
-
-  <!-- JQuery Avant Bootstrap -->
-
-  <!-- Bootstrap 4 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 </head>
-
-<div class="bg pointer-events-none "> </div>
-
-
 <script type="text/javascript">
   document.addEventListener("mousemove", parallax);
   function parallax(e) {
@@ -35,15 +24,26 @@
     })
   }
 </script>
-
+<script>
+  const cursor = document.querySelector('.cursor');
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  })
+</script>
 <script type="module" src="./src/main.ts"></script>
 <script type="module" src="./src/app.js"></script>
 
-<main role="main" class="main-content overflow-hidden" id="main-content">
+
+
+<main role="main" class="main-content overflow-hidden " id="main-content">
   <div class="vignette pointer-events-none z-50" ></div>
   <div class="lg:vignette pointer-events-none z-50" ></div>
   <div id="app"></div>
-
+<div class="bg pointer-events-none "> </div>
+<div class="bg pointer-events-none "> </div>
+<div class="cursor outer"></div>
+<div class="cursor inner"></div>
 </main>
 </body>
 

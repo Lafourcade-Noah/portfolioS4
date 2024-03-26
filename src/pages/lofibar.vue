@@ -18,7 +18,7 @@ export default {
       <p class=" opacity-50 ">Motion Design | Novembre 2023 </p>
     </div>
     <div class=" lg:mb-10 lg:mt-10 mb-5 mt-5 animleft ">
-      <img src="../img/projets/FCT/image_cover.png" alt="Placeholder"
+      <img src="../img/projets/FCT/image_cover.webp" alt="Placeholder"
         class=" shadow-inner m-auto w-3/4 max-h-96 object-cover">
     </div>
     <section>

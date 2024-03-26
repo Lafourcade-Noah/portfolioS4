@@ -18,14 +18,14 @@ export default {
       <p class=" opacity-50 animleft ">Branding | Mars 2023</p>
     </div>
     <div class=" animleft lg:mb-10 lg:mt-10 mb-5 mt-5 ">
-      <img src="../img/Lacanopee_PROJETS.jpg" alt="Placeholder"
+      <img src="../img/projets/canopee/cover.webp" alt="Placeholder"
         class=" shadow-inner m-auto w-3/4 max-h-96 object-cover ">
     </div>
     <section>
       <div>
         <h2></h2>
       </div>
-      <div class="lg:flex animleft ">
+      <div class="lg:flex animleft lg:ml-20 ">
         <div class="sm:w-1/4">
           <!-- Contenu de la première colonne -->
           <h3>OUTILS UTILISES</h3>
@@ -35,7 +35,7 @@ export default {
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
-            <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
+            <a href="https://www.figma.com/file/KtHLeOxvI68Wf9AO04mELL/UE-2.3-R-R209---Noah-Lafourcade?type=design&node-id=0%3A1&mode=design&t=g1vK14F60fQXbJTy-1"
               class="underline-btn absolute">
               <p>Lien Présentation</p>
             </a>
@@ -43,23 +43,31 @@ export default {
         </div>
         <div class="sm:w-3/4">
           <!-- Contenu de la deuxième colonne -->
-          <div class="">
+          <div class="lg:mr-20 lg:pr-28">
             <h2>PRESENTATION</h2>
-            <p class="mt-10 font-thin "> Pour ce projet en individuel il m'a fallu proposer un logo d'une compagnie de
-              reservation de chalets dans les montagnes
+            <p class="mt-10 font-thin "> L'objectif de ce projet était de concevoir une identité visuelle pour un chalet
+              appelé La Canopée, évoquant les thèmes de la nature, du ressourcement, de l'eau et de la forêt, tout en
+              reflétant une offre haut de gamme.
             </p>
             <p class="mt-10 font-thin">
-              zefzeffzezefzerfzerf
+              En explorant les différentes pistes pour le logo, j'ai envisagé diverses approches, qu'il s'agisse
+              d'utiliser une base d'illustration, de typographie ou une fusion des deux. Le moodboard a également servi
+              de guide pour puiser l'inspiration, en s'appuyant sur des marques de prestige pour élaborer des
+              propositions qui évoquent le luxe et l'exclusivité.
+
+
             </p>
             <p class="mt-10 font-thin">
-              J'ai participé à la conception des diagrammes UML afin de mettre en place une structure cohérente pour la
-              nouvelle version du site. En se basant sur ces derniers, j'ai pu réaliser des maquettes mobiles et web
-              interactives, en tenant compte de toutes les données collectées jusqu'à présent.
+              JJ'ai retenu l'idée d'un logo combinant typographie et illustration. L'utilisation d'une typographie
+              manuscrite a été privilégiée pour son caractère distinctif, évoquant une signature élégante et
+              personnalisée. L'intégration de l'illustration d'une canopée/montagne, subtilement liée au "L" du nom, a
+              été pensée pour refléter les valeurs de nature, de ressourcement et de tranquillité associées au chalet.
             </p>
             <p class="mt-10 font-thin ">
-              Cette expérience m'a permis de consolider mes compétences en conception et en analyse et en stratégie
-              digitale. Ce projet m'a appris à prendre en compte les attentes des utilisateurs dans mes designs, tout en
-              respectant une identité graphique et des codes déjà définis.</p>
+              Dans un souci de sophistication, le choix s'est porté sur une palette de couleurs restreinte, composée
+              uniquement de doré et de noir, renforçant ainsi l'image haut de gamme de la marque La Canopée. Cette
+              démarche a abouti à la création d'un logo qui incarne parfaitement l'essence et l'identité recherchées
+              pour ce chalet d'exception.</p>
           </div>
         </div>
       </div>
@@ -73,7 +81,7 @@ export default {
 
       <div class="flex flex-wrap justify-between py-8">
         <div class="w-full md:w-1/2">
-          <img src="../img/projets/canopee/canopee1.png" alt="Placeholder" class=" shadow-inner m-auto w-3/4">
+          <img src="../img/projets/canopee/cover.webp" alt="Placeholder" class=" shadow-inner m-auto w-3/4">
         </div>
         <div class="w-full md:w-1/2">
           <img src="../img/projets/canopee/CANOPEMOCKUP.webp" alt="Placeholder" class="  shadow-inner m-auto w-3/4">

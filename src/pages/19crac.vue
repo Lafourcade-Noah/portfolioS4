@@ -33,7 +33,7 @@ export default {
           </div>
           <h3>LIENS UTILES</h3>
           <div class="display flex h-12 gap-2 pt-2">
-            <a href="https://drive.google.com/file/d/1xmbO8b-Y28ZCSF1OU-eoTDKkZ3JQVxQk/view?usp=sharing"
+            <a href="public/file/Lafourcade_Noah_CharteGraphique.pdf" download="Lafourcade_Noah_CharteGraphique.pdf"
               class="underline-btn">
               <p>Lien Charte graphique</p>
             </a>
