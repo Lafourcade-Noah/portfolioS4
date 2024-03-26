@@ -33,7 +33,7 @@
           </div>
           <h3 class="mb-4"> INTÉRESSÉ ? </h3>
 
-          <a href="public/file/CV_noahlafourcade.pdf" download="CV_noahlafourcade.pdf"
+          <a href="file/CV_noahlafourcade.pdf" download="CV_noahlafourcade.pdf"
             class="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium  border-2 border-white  hover:text-white group hover:white">
             <span class="absolute left-0 block w-full h-0 transition-all group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
             <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
