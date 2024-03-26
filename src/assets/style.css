@@ -140,8 +140,8 @@ h3 {
 }
 
 .animright {
-    animation: mover 6s;
-    -webkit-animation: mover 5s;
+    animation: mover 5s;
+    -webkit-animation: mover 4s;
     
 }
 
@@ -156,9 +156,7 @@ h3 {
         transform: translateX(-100%);
         transition: all 4s;
         filter: blur(10px);
-        /* Effet de flou */
         -webkit-filter: blur(10px);
-        /* Effet de flou pour les navigateurs WebKit */
     }
 
     to {
@@ -193,7 +191,6 @@ h3 {
         padding-right: 100%;
         width: 300%;
         filter: blur(50px);
-        /* Effet de flou */
 
     }
 
