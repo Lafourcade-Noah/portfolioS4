@@ -47,9 +47,6 @@ export default {
                             pour recueillir des retours et améliorer l'expérience utilisateur.
                         </p>
                         <p class="mt-10 font-thin">
-                            zefzeffzezefzerfzerf
-                        </p>
-                        <p class="mt-10 font-thin">
                             Cette approche m'a permis de peaufiner chaque détail de la maquette, en m'assurant qu'elle
                             répondait aux besoins et aux attentes des utilisateurs cibles. Les retours obtenus lors des
                             tests ont été précieux pour identifier les points forts à renforcer et les éventuelles
