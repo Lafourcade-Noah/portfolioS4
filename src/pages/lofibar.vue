@@ -80,10 +80,13 @@ export default {
 
       <div class="flex flex-wrap justify-between">
         <div class="w-full md:w-1/2">
+          <img src="../img/projets/FCT/aiva.webp" alt="Placeholder"
+            class="shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
+        </div>
 
+        <div class="w-full md:w-1/2">   
           <img src="../img/projets/FCT/3dvue.webp" alt="Placeholder"
             class=" shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
-
         </div>
 
         <div class="w-full md:w-1/2 ">
@@ -105,6 +108,7 @@ export default {
           <img src="../img/projets/FCT/storyboard.webp" alt="Placeholder"
             class="shadow-inner mx-auto my-auto w-3/4 max-h-52 object-cover">
         </div>
+
       </div>
 
 
